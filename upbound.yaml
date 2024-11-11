@@ -1,0 +1,87 @@
+apiVersion: meta.dev.upbound.io/v1alpha1
+kind: Project
+metadata:
+  name: example-project-aws
+spec:
+  dependsOn:
+  - provider: xpkg.upbound.io/upbound/provider-aws-s3
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-ec2
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-eks
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-rds
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-redshift
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-cloudcontrol
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-cloudformation
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-cloudfront
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-cloudsearch
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-cloudtrail
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-cloudwatch
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-cloudwatchevents
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-cloudwatchlogs
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-codeartifact
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-codecommit
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-codeguruprofiler
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-codepipeline
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-codestarconnections
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-codestarnotifications
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-cognitoidentity
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-cognitoidp
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-configservice
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-connect
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-cur
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-dataexchange
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-datapipeline
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-datasync
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-dax
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-deploy
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-detective
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-directconnect
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-dlm
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-dms
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-docdb
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-ds
+    version: '>=v1.17.0'
+  - provider: xpkg.upbound.io/upbound/provider-aws-dynamodb
+    version: '>=v1.17.0'
+  - function: xpkg.upbound.io/crossplane-contrib/function-auto-ready
+    version: '>=v0.0.0'
+  description: This is where you can describe your project.
+  license: Apache-2.0
+  maintainer: Upbound User <user@example.com>
+  readme: |
+    This is where you can add a readme for your project.
+  repository: xpkg.upbound.io/upbound/haarchri-devex-demo
+  source: github.com/upbound/example-project-aws
